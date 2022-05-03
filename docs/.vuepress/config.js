@@ -8,8 +8,7 @@ const {message} = require("./message");
 const {donate} = require("./donate");
 
 module.exports = {
-    dest: "public",
-    //base: '/xxdcc-life/',//如果你准备发布到 https://<USERNAME>.github.io/<REPO>/ ，也就是说你的仓库地址是 https://github.com/<USERNAME>/<REPO> ，则将 base 设置为 "/<REPO>/"。
+    // base: '/',//如果你准备发布到 https://<USERNAME>.github.io/<REPO>/ ，也就是说你的仓库地址是 https://github.com/<USERNAME>/<REPO> ，则将 base 设置为 "/<REPO>/"。
 
     /*
     * 这里是配置Markdown语法增强的配置，如需配置，请查看官方介绍https://v2.vuepress.vuejs.org/zh/guide/markdown.html
@@ -557,7 +556,7 @@ module.exports = {
         mobileCutText: "xxdcc",
 
         //侧边栏标签处显示还是分类还是标签，只有两个值，默认为分类，如果为categories，那么就显示为类别，否则显示为标签
-        sidebarTag: "tags",
+        sidebarTag: "categories",
 
         //额外的功能，也就是样式控制面板上面那个，默认是关闭的
         showAddMood: true,
