@@ -24,3 +24,8 @@ body::-webkit-scrollbar {
      white-space: normal;
      
 }
+
+
+home-page-gradual-title-par :hover{
+     filter: blur(2.3px);
+}
